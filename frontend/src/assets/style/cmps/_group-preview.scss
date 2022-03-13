@@ -1,0 +1,38 @@
+.group-title {
+    font-family: Roboto Light, sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.5em;
+    font-weight: 400;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 0 0.2rem;
+    position: sticky;
+    left: 0;
+    z-index: 10;
+    &:hover {
+        border: 1px dashed lightgrey;
+    }
+}
+
+.group-title-input {
+    width: 100%;
+    font-family: Roboto Light, sans-serif;
+    border: 1px dashed lightgrey;
+    border-radius: 4px;
+    font-size: 1.125rem;
+    font-weight: normal;
+    line-height: 1.5em;
+    font-weight: normal;
+    padding: 0 0.2rem;
+
+    &:focus-visible {
+        outline: none;
+    }
+}
+
+
+@media screen and (max-width:762px) {
+    .group-header .group-name-container {
+        width: 16.0625rem;
+    }
+}

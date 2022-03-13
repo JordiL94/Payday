@@ -1,0 +1,33 @@
+.app-header {
+    background-color: $clr1;
+    padding: 2rem 0;
+    // display: flex;
+
+    section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h1 {
+            font-size: 2rem;
+        }
+        
+        h1,
+        ul {
+            margin: 0;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+
+            >* {
+                font-size: 1.2rem;
+            }
+            
+            > *:not(:last-child) {
+                padding-inline-end: 1.2rem;
+            }
+        }
+    }
+}

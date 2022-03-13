@@ -1,0 +1,45 @@
+// .toy-details {
+
+//     .details {
+//         display: grid;
+//         place-items: center;
+//         margin: 2rem auto 0;
+//         padding: 1.5rem;
+//         background-color: $clr1;
+//         border-radius: 2rem;
+//         width: 70%;
+
+        
+//         span {
+//             font-weight: bold;
+//         }
+
+//         .labels-container {
+//             display: flex;
+
+//             > * {
+//                 padding: 0.2rem 0.5rem;
+//                 background-color: #b3b3b39f;
+//             }
+
+//             > *:not(:last-child) {
+//                 margin-inline-end: 0.5rem;
+//             }
+//         }
+//     }
+//     .btns-container {
+//         width: 100%;
+//         display: flex;
+//         justify-content: space-between;
+//         align-items: center;
+//     }
+// }
+
+
+.back-home-link{
+   position: absolute;
+   top: 0;
+   left: 0;
+   padding: 0.5rem;
+   font-size: 1.5rem;
+}

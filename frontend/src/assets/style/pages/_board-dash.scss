@@ -1,0 +1,14 @@
+.toy-app {
+    
+    .btns-container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+
+    .sort-by > * {
+        margin-inline-start: 0.5rem;
+    }
+
+    
+}

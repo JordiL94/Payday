@@ -1,0 +1,181 @@
+.group-header {
+	display: flex;
+	justify-content: space-between;
+	cursor: pointer;
+
+
+	.header-info-container {
+		display: flex;
+	}
+
+	.column-dnd-container {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.cell {
+		// margin: 0 0 0 1px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #323338;
+		font-size: 0.875rem;
+		font-weight: 400;
+		padding-top: 5px;
+		border-left: 1px solid #fff;
+		border-right: 1px solid #fff;
+
+		&:-moz-drag-over {
+			cursor: -moz-grab;
+		}
+
+		&:hover {
+			background-color: #f5f6f8;
+			transition: 0.1s ease;
+			.col-dragger {
+				visibility: visible;
+			}
+		}
+
+		&:active {
+			.col-dragger {
+				visibility: visible;
+			}
+		}
+	}
+
+	.col-dragger {
+		color: #323338;
+		font-size: 1rem;
+		visibility: hidden;
+		height: 100%;
+		cursor: move;
+	}
+
+	.left-border,
+	.right-border {
+		display: flex;
+		flex: 1;
+	}
+
+	.isDragging {
+		background-color: #ffffffe4;
+		// border: 1px solid #fff;
+		// padding: 35px 35px 105px 35px;
+		border-radius: 4px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 1rem;
+	}
+
+	.members {
+		width: 97px;
+	}
+
+	.status {
+		width: 117px;
+		background-color: #f5f6f8;
+		border-radius: 8px 8px 0 0;
+	}
+
+	.priority {
+		width: 92px;
+	}
+
+	.type {
+		width: 117px;
+	}
+
+	.timeline {
+		width: 180px;
+	}
+
+	.number {
+		width: 125px;
+	}
+
+	.link {
+		width: 140px;
+	}
+
+	.due-date {
+		width: 140px;
+		background-color: #f5f6f8;
+		border-radius: 8px 8px 0 0;
+	}
+	
+	.group-name-container {
+		width: 26.8125rem;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		font-size: 18px;
+
+		.MuiButton-containedPrimary.group-menu-btn {
+			display: block;
+			background-color: transparent;
+			padding: 0;
+			min-width: unset;
+			font-size: unset;
+			line-height: 1.2rem;
+			box-shadow: none;
+			margin-inline-end: 0.48rem;
+
+			&:hover {
+				background-color: transparent;
+				box-shadow: none;
+			}
+			.fa-solid.caret-down {
+				font-size: 0.75rem;
+				padding: 0.7px 3px;
+				border-radius: 50%;
+				border-width: 0.5px;
+				border-style: solid;
+			}
+		
+		}
+
+
+		.drag-group {
+			color: #c4c4c4;
+			font-size: 1.2rem;
+			display: none;
+			height: 100%;
+			cursor: move;
+		}
+
+		.collapse-group {
+			background-color: #e1e1e1;
+			border-radius: 4px;
+			color: #666;
+			font-size: 1.2rem;
+			display: none;
+			// height: 100%;
+			// margin-top: 0.6rem;
+		}
+
+		&:hover {
+			.drag-group {
+				display: block;
+			}
+			.collapse-group {
+				display: block;
+				opacity: 0.8;
+				&:hover {
+					opacity: 1;
+				}
+			}
+		}
+
+		&:active {
+			.drag-group {
+				display: block;
+			}
+			.collapse-group {
+				display: block;
+				opacity: 0.8;
+			}
+		}
+	}
+}

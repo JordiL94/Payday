@@ -1,0 +1,211 @@
+.btn-primary {
+    background-color: $clr2;
+    padding: 0.3rem 0.8rem;
+    border-radius: 0.8rem;
+    border: none;
+
+    font-size: 1rem;
+    line-height: 1rem;
+    color: inherit;
+
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: darken(rgba($clr2, 0.8), 5%);
+    }
+}
+
+.btn-fa {
+    background-color: $clr2;
+    padding: 0.6rem;
+    border-radius: 50%;
+    border: none;
+
+    font-size: 1rem;
+    color: inherit;
+
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: darken(rgba($clr2, 0.8), 5%);
+    }
+}
+
+.MuiButton-containedPrimary.group-color-menu-btn {
+    background-color: transparent;
+    color: inherit;
+    padding: 0;
+    font-family: inherit;
+    text-transform: none;
+    min-width: unset;
+    line-height: 1.2rem;
+    font-size: unset;
+    box-shadow: none;
+    margin-inline-end: 0.48rem;
+
+    &:hover {
+        background-color: transparent;
+        box-shadow: none;
+    }
+    .group-color-row {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .group-color-indicator {
+        width: 0.875rem;
+        height: 0.875rem;
+        border-radius: 50%;
+        transform: translateX(-0.0625rem);
+        margin-inline-end: 0.55rem;
+    }
+    .chevron-right {
+        position: absolute;
+        font-size: 0.8125rem;
+        line-height: 1em;
+        right: -75px;
+
+    }
+}
+
+.MuiButton-containedPrimary.person-menu-btn {
+    background-color: transparent;
+    color: inherit;
+    width: 4.9375rem;
+    height: 2.25rem;
+    padding: 0;
+    font-size: 1.1rem;
+    font-family: inherit;
+    text-transform: none;
+    min-width: unset;
+    line-height: 1.2rem;
+    font-size: unset;
+    box-shadow: none;
+    margin-inline-end: 0.48rem;
+    transition: none;
+    -webkit-transition: none;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+        background-color: transparent;
+        box-shadow: none;
+    }
+    .sort-icon{
+        color: #7a7b7e;
+        margin-inline-end: 10px;
+        font-size: 1.1rem;
+        font-weight: 300;
+        transform: rotate(90deg);
+    }
+}
+.MuiButton-containedPrimary.sort-menu-btn {
+    background-color: transparent;
+    color: inherit;
+    width: 4.375rem;
+    height: 2.1875rem;
+    padding: 0;
+    font-size: 1.1rem;
+    font-family: inherit;
+    text-transform: none;
+    min-width: unset;
+    line-height: 1.2rem;
+    font-size: unset;
+    box-shadow: none;
+    margin-inline-end: 0.48rem;
+    transition: none;
+    -webkit-transition: none;
+
+    &:hover {
+        background-color: transparent;
+        box-shadow: none;
+    }
+    .sort-icon{
+        color: #7a7b7e;
+        margin-inline-end: 10px;
+        font-size: 1.1rem;
+        font-weight: 300;
+        transform: rotate(90deg);
+    }
+}
+
+.MuiButton-containedPrimary.filter-menu-btn {
+    background-color: transparent;
+    color: inherit;
+    width: 20px;
+    height: 2.1875rem;
+    padding: 0;
+    font-size: 1.1rem;
+    text-transform: none;
+    min-width: unset;
+    line-height: 1.2rem;
+    font-size: unset;
+    box-shadow: none;
+    transition: none;
+    -webkit-transition: none;
+    display: grid;
+    place-items: center;
+
+    &:hover {
+        background-color: transparent;
+        box-shadow: none;
+    }
+}
+
+.MuiButton-containedPrimary.add-story-btn {
+    display: block;
+    background-color: transparent;
+    padding: 0;
+    min-width: unset;
+    font-size: unset;
+    box-shadow: none;
+    display: inline-block;
+    // padding: 0.1rem 0;
+
+    &:hover {
+        background-color: transparent;
+        box-shadow: none;
+    }
+    .fa-solid.chevron-down {
+        font-size: 0.7rem;
+        color: white;
+    }
+}
+
+
+.MuiButton-containedPrimary.column-menu-btn {
+    background-color: transparent;
+    color: inherit;
+    width: 20px;
+    height: 2.1875rem;
+    padding: 0;
+    font-size: 1.1rem;
+    text-transform: none;
+    min-width: unset;
+    line-height: 1.2rem;
+    font-size: unset;
+    box-shadow: none;
+    transition: none;
+    -webkit-transition: none;
+    display: grid;
+    place-items: center;
+    display: block;
+    // position: relative;
+    // left: 10px;
+    margin-inline-end: 12px;
+
+    &:hover {
+        background-color: transparent;
+        box-shadow: none;
+    }
+    
+    .add-col-but {
+        color: #c4c4c4;
+        cursor: pointer;
+    }
+
+}

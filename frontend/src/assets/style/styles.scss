@@ -1,0 +1,59 @@
+// Setup
+@import "setup/variables.scss";
+@import "setup/functions.scss";
+@import "setup/mixings.scss";
+@import "setup/fonts.scss";
+
+// Basics
+@import "basics/helpers.scss";
+@import "basics/layouts.scss";
+@import "basics/base.scss";
+@import "basics/buttons.scss";
+@import "basics/menus.scss";
+
+// Pages
+
+@import "./pages/_home-page.scss";
+@import "./pages/_board-app.scss";
+@import "./pages/_login-signup.scss";
+
+// Cmps
+
+@import "./cmps/app-header.scss";
+@import "./cmps/side-bar.scss";
+@import "./cmps/board-list.scss";
+@import "./cmps/board-area.scss";
+@import "./cmps/story-list.scss";
+@import "./cmps/group-list.scss";
+@import "./cmps/story.scss";
+@import "./cmps/board-preview.scss";
+@import "./cmps/board-header.scss";
+@import "./cmps/board-nav.scss";
+@import "./cmps/board-actions.scss";
+@import "./cmps/drop-down-menu.scss";
+@import "./cmps/dashboard.scss";
+@import "./cmps/activity-modal.scss";
+@import "./cmps/modal-update-preview.scss";
+@import "./cmps/group-preview.scss";
+@import "./cmps/home-page-header.scss";
+@import "./cmps/add-story.scss";
+@import "./cmps/main-content.scss";
+
+
+// Dynamic cmps - columns
+@import "./cmps/dynamicCmps/number-cmp.scss";
+@import "./cmps/dynamicCmps/timeline-cmp.scss";
+@import "./cmps/dynamicCmps/members-cmp.scss";
+@import "./cmps/dynamicCmps/status-cmp.scss";
+@import "./cmps/dynamicCmps/priority-cmp.scss";
+@import "./cmps/dynamicCmps/link-cmp.scss";
+@import "./cmps/dynamicCmps/due-date-cmp.scss";
+@import "./cmps/dynamicCmps/type-cmp.scss";
+
+
+// Kanban 
+@import "./cmps/kanban/kanban.scss";
+@import "./cmps/kanban/kanban-story.scss";
+@import "./cmps/kanban/kanban-group.scss";
+@import "./cmps/kanban/kanban-members.scss";
+@import "./cmps/kanban/kanban-due-date.scss";

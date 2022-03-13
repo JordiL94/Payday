@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.511f0034.css",
+    "main.js": "/static/js/main.f4d94d26.js",
+    "static/media/connections.jpg": "/static/media/connections.97f770b434a6cb207992.jpg",
+    "static/media/dashboard.png": "/static/media/dashboard.b034b5ca29754e5c667e.png",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.de78ce19b6954a6f4144.ttf",
+    "static/media/group.png": "/static/media/group.5a67d3b498b0721b8d7f.png",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.c90f83fd0c6c34dd638f.ttf",
+    "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.a8d6ac03c7b96b7acb62.ttf",
+    "static/media/Roboto-Light.ttf": "/static/media/Roboto-Light.8be2d1487420548b3b8d.ttf",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.ce1650acad36ae1d3c93.ttf",
+    "static/media/activity-log.svg": "/static/media/activity-log.f5f9c287d70b7ebf1279f364464ca1db.svg",
+    "index.html": "/index.html",
+    "main.511f0034.css.map": "/static/css/main.511f0034.css.map",
+    "main.f4d94d26.js.map": "/static/js/main.f4d94d26.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.511f0034.css",
+    "static/js/main.f4d94d26.js"
+  ]
+}

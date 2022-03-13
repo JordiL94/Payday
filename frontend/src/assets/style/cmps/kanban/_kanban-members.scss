@@ -1,0 +1,38 @@
+.kanban-members-cmp {
+    .kanban-active-member-list {
+        display: flex;
+    }
+
+    img {
+		width: 1.75rem;
+		height: 1.75rem;
+		border-radius: 50%;
+	}
+
+	.kanban-members-cmp-initials{
+		border-radius: 50%;
+		height: 1.75rem;
+		width: 1.75rem;
+		background-color: #f65f7d;
+		text-align: center;
+		// line-height: 2rem;
+		color: white;
+		text-transform: uppercase;
+		// padding: 3px;
+		font-size: 0.875rem;
+		border: 1px solid white;
+	}
+
+	.kanban-plus-members {
+        font-size: 1rem;
+        background-color: #333;
+        border-radius: 50%;
+        width: 1.75rem;
+        height: 1.75rem;
+        padding: 1px 1px 0 0;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 300;
+        border: 1px solid white;
+	}
+}

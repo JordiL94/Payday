@@ -1,0 +1,44 @@
+.board-preview {
+	position: relative;
+	overflow: visible;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+
+	.board-icon {
+		line-height: 32px;
+		font-size: 1.2rem;
+		transform: rotate(90deg);
+		position: relative;
+		bottom: -3px;
+	}
+
+	.btn-ellipsis.MuiButton-containedPrimary.hover {
+		display: inline-block;
+	}
+
+	&.curr-board {
+		background-color: #cce5ff;
+		&:hover {
+			background-color: #cce5ff;
+		}
+	}
+
+	.btn-ellipsis.MuiButton-containedPrimary {
+		display: none;
+		min-width: unset;
+		padding: 0 0.8rem;
+		font-size: 1rem;
+		background-color: transparent;
+		box-shadow: none;
+		&:hover {
+			background-color: transparent;
+			box-shadow: none;
+		}
+
+		.fa-solid {
+			color: $clr5;
+		}
+	}
+}

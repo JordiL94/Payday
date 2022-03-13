@@ -1,0 +1,46 @@
+.link-container {
+	width: 140px;
+	height: 35px;
+	
+	.link-button.MuiButton-containedPrimary {
+		border-top: 1px solid #f5f6f8;
+		border-top: #c4c4c4;
+		border-bottom: #c4c4c4;
+		width: 140px;
+		background-color: inherit;
+		box-shadow: none;
+		text-transform: none;
+		
+		&:active {
+			box-shadow: none;
+		}
+
+		a {
+			color: #0086c0;
+			font-size: 0.8125rem;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+
+		&:hover {
+			background-color: transparent;
+			box-shadow: none;
+		}
+	}
+
+	.link-button.MuiButton-containedPrimary {
+
+	}
+	// button: {
+	//     width: 140px;
+	// }
+
+	.link-popover {
+        .MuiTypography-root.MuiTypography-body1.link-editor.css-ahj2mt-MuiTypography-root input {
+            border: 1px solid #0071d9;
+            width: 216px;
+        }
+		// MuiTypography-root.MuiTypography-body1. link-editor css-ahj2mt-MuiTypography-root
+	}
+}

@@ -1,0 +1,17 @@
+.my-active {
+    color: $clr2;
+}
+
+.flex{
+    display: flex;
+    &.space-between{
+        justify-content: space-between;
+    }
+    &.justify-center{
+        justify-content: center;
+    }
+    &.align-center{
+        align-items: center;
+    }
+}
+

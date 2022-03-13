@@ -1,0 +1,31 @@
+.add-number {
+    width:125px;
+    height: 35px;
+    background-color: inherit;
+    padding-top: .35rem;
+    padding-inline-start: .35rem;
+    border: 1px solid #fff;
+    border-top: #c4c4c4;
+    border-bottom: #c4c4c4;
+    // padding: 15px, 0, 0;
+    // background-color: #cce5ff;
+    
+    input {
+        text-align: center;
+        width: 112px;
+        height: 25px;
+        background-color: inherit;
+        color: #666;
+        border: none;
+        
+        &:hover {
+            border: 1px dashed #c4c4c4;
+        }
+
+        &:focus {
+            outline: none;
+            border: 1px dashed #0085ff;
+            background-color: #fff;
+        }
+    }
+}

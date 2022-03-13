@@ -1,0 +1,121 @@
+.home-page {
+    background-color: #fff;
+    height: 80vh;
+    font-family: Roboto, sans-serif;
+
+    .home-name img {
+        height: 150px;
+        width: 100px;
+        margin-right: 5px;
+    }
+    .home-name {
+        display: flex;
+        justify-content: center;
+    }
+    .home-name > * {
+        margin: 0;
+        padding: 0;
+    }
+    .home-name h1 {
+        font-size: 70px;
+        line-height: 150px;
+        letter-spacing: 10px;
+        color: white;
+    }
+
+    .login-link,
+    .demo-link {
+        background-color: #f7a639;
+        color: white;
+        padding: 10px;
+        border-radius: 4px;
+        margin: 10px;
+        &:hover {
+            color: #0f1048;
+        }
+    }
+
+    .links-container {
+        display: flex;
+        justify-content: center;
+    }
+    .group-img-container {
+        display: flex;
+        height: 18.75rem;
+        margin-top: 2rem;
+    }
+    .group-img {
+        width: 70%;
+    }
+    .dashboard-img-container {
+        display: flex;
+        height: 18.75rem;
+    }
+    .dashboard-img {
+        width: 70%;
+    }
+    .dashboard-txt,
+    .group-txt {
+        padding: 2rem;
+        width: 30%;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .connections-img-container {
+        position: relative;
+        .name-links-container {
+            position: absolute;
+            top: 20%;
+            left: 7%;
+        }
+    }
+}
+
+@media screen and(max-width:762px) {
+    .home-page{
+
+        .group-img-container{
+            flex-direction: column;
+            height: fit-content;
+            .dashboard-img,.group-img{
+                width: 100%;
+            }
+        }
+        .dashboard-img-container{
+            flex-direction:column-reverse;
+            height: fit-content;
+        }
+        .dashboard-txt,
+        .group-txt{
+            padding: 0.5rem;
+            font-size: 1.5rem;
+            width: 100%;
+        }
+        .connections-img-container{
+
+            .name-links-container{
+                top: 27%;
+                left: 1%;
+                .home-name{
+                    // height: 6rem;
+                    h1{
+                        font-size: 1.5rem;
+                        line-height: 3rem;
+                    }
+                    img{
+                        height: 3rem;
+                        width: 1.5rem;
+                        
+                    }
+                }
+                .links-container{
+                    .login-link,.demo-link{
+                        font-size: 0.7rem;
+                        padding: 0.2rem;
+                    }
+                }
+            }
+        }
+        
+    }
+}

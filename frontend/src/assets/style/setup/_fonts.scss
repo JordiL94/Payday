@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@font-face {
+	font-family: Roboto;
+	src: url('../../fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+	font-family: Roboto light;
+	src: url('../../fonts/Roboto-Light.ttf');
+}
+
+@font-face {
+	font-family: fa;
+	src: url('../../fonts/fa/fa-regular-400.ttf');
+}
+
+@font-face {
+	font-family: fa-brands;
+	src: url('../../fonts/fa/fa-brands-400.ttf');
+}
+
+@font-face {
+	font-family: fa-solid;
+	src: url('../../fonts/fa/fa-solid-900.ttf');
+}
+
+.fa {
+	font-family: fa;
+}
+
+.fa-solid {
+	font-family: fa-solid;
+}
+
+.fa-brands {
+	font-family: fa-brands;
+}
+
+.fa.trash::before {
+	content: '\f2ed';
+}
+
+.fa.bell::before {
+	content: '\f0f3';
+}
+
+.fa.inbox::before {
+	content: '\f01c';
+}
+
+.fa.calendar-check::before {
+	content: '\f274';
+}
+
+.fa-solid.question::before {
+	content: '\f128';
+}
+
+.fa.edit-hollow::before {
+	content: '\f044';
+}
+
+.fa.edit-filled::before {
+	content: '\f044';
+}
+
+.fa.search::before {
+	content: '\f002';
+}
+
+.fa.calendar-alt::before {
+	content: '\f073';
+}
+
+.fa.img::before {
+	content: '\f03e';
+}
+
+.fa.clone::before {
+	content: '\f24d';
+}
+
+.fa.times::before {
+	content: '\f057';
+}
+
+.fa.star::before {
+	content: '\f005';
+}
+
+.fa.chart-bar::before {
+	content: '\f080';
+}
+
+.fa.list-alt::before {
+	content: '\f022';
+}
+
+.fa.user::before {
+	content: '\f007';
+}
+
+.fa.copy::before {
+	content: '\f0c5';
+}
+
+.fa.calendar-times::before {
+	content: '\f273';
+}
+
+.fa.clock::before {
+	content: '\f017';
+}
+
+/*  Brands */
+
+.fa-brands.youtube::before {
+	content: '\f022';
+}
+
+/* Solid Style */
+
+.fa-solid.exchange-alt::before {
+	content: '\f362';
+}
+
+.fa-solid.undo::before {
+	content: '\f0e2';
+}
+
+.fa-solid.th-list::before {
+	content: '\f00b';
+}
+
+.fa-solid.caret-down::before {
+	content: '\f0d7';
+}
+
+.fa-solid.chevron-down::before {
+	content: '\f078';
+}
+
+.fa-solid.times::before {
+	content: '\f00d';
+}
+
+.fa-solid.chevron-up::before {
+	content: '\f077';
+}
+.fa-solid.link::before {
+	content: '\f0c1';
+}
+
+.fa-solid.calculator::before {
+	content: '\f1ec';
+}
+
+.fa-solid.robot::before {
+	content: '\f544';
+}
+
+.fa-solid.plug::before {
+	content: '\f1e6';
+}
+
+.fa-solid.info-circle::before {
+	content: '\f05a';
+}
+
+.fa-solid.battery-three-quarters::before {
+	content: '\f241';
+}
+
+.fa-solid.users::before {
+	content: '\f0c0';
+}
+
+.fa-solid.exclamation::before {
+	content: '\f12a';
+}
+
+.fa-solid.star::before {
+	content: '\f005';
+}
+
+.fa-solid.chart-line::before {
+	content: '\f201';
+}
+
+.fa-solid.ellipsis-h::before {
+	content: '\f141';
+}
+
+.fa-solid.window::before {
+	content: '\f2d0';
+}
+
+.fa-solid.search::before {
+	content: '\f002';
+}
+.fa-solid.grip::before {
+	content: '\f58e';
+}
+.fa-solid.angledown::before {
+	content: '\f107';
+}
+
+.fa-solid.angleup::before {
+	content: '\f106';
+}
+
+.fa-solid.angleright::before {
+	content: '\f105';
+}
+
+.fa-solid.angleleft::before {
+	content: '\f104';
+}
+
+.fa-solid.filter::before {
+	content: '\f0b0';
+	color: transparent;
+	font-size: 14px;
+	-webkit-text-stroke-width: 1.1px;
+	-webkit-text-stroke-color: rgb(27, 27, 27);
+}
+
+.fa-solid.th-large::before {
+	content: '\f009';
+}
+
+.fa-solid.puzzle-piece::before {
+	content: '\f12e';
+}
+
+.fa-solid.user-plus::before {
+	content: '\f234';
+}
+
+.fa-solid.inbox::before {
+	content: '\f01c';
+}
+
+.fa-solid.arrow-left::before {
+	content: '\f060';
+}
+
+.fa-solid.close-filled::before {
+	content: '\f410';
+}
+
+.fa-solid.plus::before {
+	content: '\f067';
+}
+
+.fa-solid.check::before {
+	content: '\f00c';
+}
+
+.fa-solid.font::before {
+	content: '\f031';
+}
+
+.fa-solid.chevron-left::before {
+	content: '\f053';
+}
+
+.fa-solid.chevron-right::before {
+	content: '\f054';
+}
+
+.fa-solid.list::before {
+	content: '\f03a';
+}
+
+.fa-solid.color::before {
+	content: '\f53f';
+}
+
+.fa-solid.pin::before {
+	content: '\f08d';
+}
+
+.fa-solid.home::before {
+	content: '\f015';
+}
+
+.fa-solid.traffic-light::before {
+	content: '\f637';
+}
+
+.fa-solid.align-center::before {
+	content: '\f037';
+}
+.fa-solid.thumbs-up::before{
+	content: '\f164';
+}
+.fa-solid.reply::before{
+	content: '\f3e5';
+}
+
+.fa-solid.align-justify::before{
+	content: '\f039';
+}

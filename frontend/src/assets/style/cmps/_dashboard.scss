@@ -1,0 +1,117 @@
+.dashboard-stats-container{
+    display: flex;
+    justify-content: space-evenly;
+    >*{
+        // background-color: darkkhaki;
+        // border: 1px black solid;
+        height: 5rem;
+        width: 10rem;
+        text-align: center;
+        line-height: 5rem;
+        display: flex;
+        border-radius: 10px;
+        box-shadow:0px 0px 5px 2px rgba(0,0,0,0.56) ;
+        >*{
+            width: 50%;
+        }
+
+
+    }
+    .stats-icon>*{
+        font-size: 4rem;  
+        color:white;  
+    }
+    .inner-stats{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        color: white;
+        >*{
+            height: 50%;
+            line-height: 2.6rem;
+        }
+        :first-child{
+            font-size: 1.8rem;
+        }
+        :not(:first-child){
+            font-size: 1rem;
+        }
+    }
+    .groups-stats{
+        background-image: linear-gradient(to right bottom, #1358be, #007cd7, #009de4, #00bcea, #12d9eb);
+    }
+    .stories-stats{
+        // background-image: linear-gradient(to right bottom, #103619, #1e5f2a, #318b3b, #48b94a, #64e958);
+        background-image: linear-gradient(to right bottom, #41a813, #48b73f, #52c660, #5ed57e, #6de39b);
+    }
+    .members-stats{
+        // background-image: linear-gradient(to right bottom, #480000, #702719, #994c2d, #c27341, #e99d58);
+        background-image: linear-gradient(to right bottom, #f27664, #f2895f, #ef9c5e, #e9ae63, #e3bf6d);
+    }
+    .activities-stats{
+        // background-image: linear-gradient(to right bottom, #38013b, #642162, #95428a, #c864b5, #ff87e0);
+        background-image: linear-gradient(to right bottom, #e04776, #ea5995, #f06cb3, #f380d1, #f295ee);
+
+    }
+
+
+}
+.dash-top-container{
+    display: flex;
+    .line-chart{
+        width: 50%;
+        margin: 1rem;
+        background-color: rgba(132, 226, 255, 0.103);
+        border-radius: 8px;
+    }
+    .bar-chart{
+        width: 50%;
+        margin: 1rem;
+        background-color: rgba(132, 226, 255, 0.103);
+        border-radius: 8px;
+    }
+    h4{
+        text-align: center;
+    }
+}
+.dash-bottom-container{
+    display: flex;
+    .scatter-chart{
+        width: 50%;
+    }
+    .pie-chart{
+        width: 40%;
+        margin: 1rem;
+        margin-left: 30%;
+        background-color: rgba(132, 226, 255, 0.103);
+        border-radius: 8px;
+    }
+    h4{
+        text-align: center;
+    }
+}
+
+@media screen and(max-width:762px){
+    .dashboard-stats-container{
+        flex-wrap: wrap;
+        // overflow-x: hidden;
+        // there is overflow
+        >*{
+            margin-top: 2rem
+        }
+    }
+    .dash-top-container{
+        flex-direction: column;
+        align-items: center;
+        .line-chart,.bar-chart{
+            width: 100%;
+        }
+
+    }
+    .dash-bottom-container{
+        .pie-chart{
+            width: 100%;
+            margin: 0;
+        }
+    }
+}

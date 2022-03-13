@@ -1,0 +1,24 @@
+.review-preview {
+    border-bottom: 1px solid $clr4;
+    padding: 1.5rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+
+    h4 {
+        font-size: 1.2em;
+    }
+    
+    .by-user {
+        font-weight: bold;
+        span {
+            font-weight:normal;
+            margin-inline-start: .6rem;
+        }
+    }
+
+    > span {
+        color: #ffc83d;
+    }
+}
